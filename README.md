@@ -1,2 +1,2 @@
-# CC_Projects
-Personal projects made from codecademy
+# Project Bazaar
+Personal projects made from various online sites.
