@@ -36,27 +36,27 @@ public class Calculator {
 
     // Perform arithmetic operations and print the results
     int addition = myCalculator.add(5, 7);
-    System.out.println("5 + 7 = " + addition);
+    System.out.println(addition);
 
     int subtraction = myCalculator.subtract(45, 11);
-    System.out.println("45 - 11 = " + subtraction);
+    System.out.println(subtraction);
 
     int multiplication = myCalculator.multiply(5, 12);
-    System.out.println("5 * 12 = " + multiplication);
+    System.out.println(multiplication);
 
     int division = myCalculator.divide(10, 2);
-    System.out.println("10 / 2 = " + division);
+    System.out.println(division);
 
     int modulo = myCalculator.modulo(9, 2);
-    System.out.println("9 % 2 = " + modulo);
+    System.out.println(modulo);
   }
 }
 
 /*
 Output:
-5 + 7 = 12
-45 - 11 = 34
-5 * 12 = 60
-10 / 2 = 5
-9 % 2 = 1
+12
+34
+60
+5
+1
 */
